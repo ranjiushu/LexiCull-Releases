@@ -33,6 +33,7 @@
       <a href="#start">上手</a>
       <a href="#screens">界面</a>
       <a href="#qa">问答</a>
+      <a href="#project">项目</a>
       <a href="#download">下载</a>
     </nav>
   </div>
@@ -44,6 +45,7 @@
     <h1>LexiCull</h1>
     <p class="lead">打造易用可靠的<strong>个人辞书应用</strong>。不止于背单词 —— 收录、整理、比对、回顾你的专属词库。</p>
     <p class="sub">Android 7.0 及以上 · 词库数据全部保存在本机 · 无需注册账号 · 30 天全功能试用</p>
+    <p class="byline">由 <strong>冉旧舒（Ranjiushu）</strong>独立设计与开发<br>An independent personal dictionary app — designed &amp; built by Ranjiushu</p>
     <div class="cta">
       <a class="btn btn-primary" href="https://github.com/ranjiushu/LexiCull-Releases/releases/latest/download/LexiCull.apk">下载安装包（APK）</a>
       <a class="btn btn-ghost" href="https://github.com/ranjiushu/LexiCull-Releases/releases">更新历史</a>
@@ -61,6 +63,19 @@
     <p>LexiCull 是一个<strong>纯离线的个人辞书应用</strong>。它把「收词 → 整理 → 比对 → 回顾」做成一条完整链路：你把任意文本喂给它，它解析成结构化辞条，排成一本可以长期翻阅的辞书 —— 而不是只给你一个背单词的进度条。</p>
     <p>它还原纸质辞书的排版与翻阅体验 —— 词典印刷风格的看板、词条级别的精准编辑、形近词自动相邻排列，并支持 Android 与 Web 双端使用。</p>
     <p class="muted">适合：日语等外语的例句与生词积累、读书笔记里的术语收藏、任何需要「按自己的方式整理词条」的场景。</p>
+  </section>
+
+  <section id="project">
+    <h2>关于这个项目</h2>
+    <p>LexiCull 始于一个个人实验，在持续迭代中长成一个完整可运行的产品。从产品设计、UI/UX、应用架构到数据管理、测试与发布，全部由开发者一人完成；开发流程中深度接入 AI 编码 Agent，承担实现、调试、测试与文档工作。</p>
+    <table>
+      <tr><th>项目规模</th><td>约 5.5 万行源码：前端 3.3 万 + Android 壳 0.5 万 + 工具与测试 1.7 万</td></tr>
+      <tr><th>迭代历史</th><td>1400+ 次提交，持续迭代中（当前 β 测试版）</td></tr>
+      <tr><th>平台</th><td>Android（纯 WebView 壳）/ Web（单文件产物）</td></tr>
+      <tr><th>工程实践</th><td>单元测试、构建流水线、版本归档、SHA-256 校验分发</td></tr>
+      <tr><th>开发方式</th><td>AI Agent 辅助开发（实现 / 调试 / 测试 / 文档），含 MCP 工具链</td></tr>
+      <tr><th>源代码</th><td>私有仓库；本站仅提供简介、截图与官方安装包</td></tr>
+    </table>
   </section>
 
   <section id="features">
@@ -120,10 +135,6 @@
       <p>他们以文档作为信息载体，LexiCull 以词条作为信息载体，便于个人维护和检索。</p>
     </details>
     <details>
-      <summary>和百词斩、anki 是什么关系？</summary>
-      <p>他们搞的是固定课程，还有遗忘曲线一类的东西。LexiCull 专注于检索和筛查，可以导入单词，也可以导入技术名词 —— 你搞面向印度的外贸，拿来管理种姓相关的知识也没问题。给熟悉的筛掉，使劲背不熟悉的知识才有效率。</p>
-    </details>
-    <details>
       <summary>我干嘛费劲维护一个个人辞条呢？</summary>
       <p>也不是所有词条都得手敲，用 LLM 一键生成才是推荐的方式。词条这种结构更便于你批判它 —— 现在的人类就差不多剩批判的本事比 AI 强了。LexiCull 为筛查、检索和记忆服务，同时允许 Agent 通过 MCP 读取你的辞条：可以迅速检索并复制某个技术名词以精确与 LLM 沟通，本地 Agent 也可读取你的个人知识储备，更高效地协作工作。</p>
     </details>
@@ -132,12 +143,16 @@
       <p>个人场景文档维护成本高（大部分人根本不会亲手维护文档，LLM 全量吞吐之后文档会逐渐失真），手动检索也不方便，而且自己很容易读不下去。LexiCull 的辞条场景下，能够让你专注地阅读数万字的陌生领域的知识。</p>
     </details>
     <details>
-      <summary>为什么不用记忆曲线？</summary>
-      <p>艾宾浩斯搞的记忆研究针对的是没有意义的内容，套用到知识学习上噱头大于科学。LexiCull 不搞记忆曲线：某些知识你看完、筛查完，感觉差不多就得了，下次遇到再筛再记的意义，远大于哄着你每天看十几个名词。</p>
-    </details>
-    <details>
       <summary>安装、迁移与隐私</summary>
       <p>安装包需要 Android 7.0 及以上，首次安装需允许「安装未知来源应用」；无需注册账号。换手机或重装时，用「设置 → 备份」导出 ZIP 或上传 WebDAV 再导入即可。词库、进度与设置全部保存在本机，联网只用于获取授权许可，不传输任何词条内容。</p>
+    </details>
+    <details>
+      <summary>和百词斩、anki 是什么关系？</summary>
+      <p>他们搞的是固定课程，还有遗忘曲线一类的东西。LexiCull 专注于检索和筛查，可以导入单词，也可以导入技术名词 —— 你搞面向印度的外贸，拿来管理种姓相关的知识也没问题。给熟悉的筛掉，使劲背不熟悉的知识才有效率。</p>
+    </details>
+    <details>
+      <summary>为什么不用记忆曲线？</summary>
+      <p>艾宾浩斯搞的记忆研究针对的是没有意义的内容，套用到知识学习上噱头大于科学。LexiCull 不搞记忆曲线：某些知识你看完、筛查完，感觉差不多就得了，下次遇到再筛再记的意义，远大于哄着你每天看十几个名词。</p>
     </details>
   </section>
 
