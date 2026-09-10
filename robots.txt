@@ -1,0 +1,27 @@
+# LexiCull 官网
+User-agent: *
+Allow: /
+
+# 主动放行 AI 爬虫与 AI 搜索（借鉴 OCAT 官网的做法）
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://ranjiushu.github.io/LexiCull-Releases/sitemap.xml
