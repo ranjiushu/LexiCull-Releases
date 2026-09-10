@@ -4,7 +4,9 @@
   <p><b>打造易用可靠的个人辞书应用</b></p>
   <p>不止于背单词 —— 收录、整理、比对、回顾你的专属词库</p>
   <p>
-    <a href="https://github.com/ranjiushu/LexiCull-Releases/releases/latest"><b>下载最新版</b></a>
+    <a href="https://ranjiushu.github.io/LexiCull-Releases/"><b>官网</b></a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/ranjiushu/LexiCull-Releases/releases/latest">下载最新版</a>
     &nbsp;·&nbsp;
     <a href="https://github.com/ranjiushu/LexiCull-Releases/releases">更新历史</a>
     &nbsp;·&nbsp;
@@ -26,6 +28,7 @@
 |---|---|
 | 安装包 | `LexiCull-v1.0-b2717.apk`（1.18 MB） |
 | 直接下载 | [LexiCull-v1.0-b2717.apk](https://github.com/ranjiushu/LexiCull-Releases/releases/download/v1.0-b2717/LexiCull-v1.0-b2717.apk) |
+| 固定链接 | [releases/latest/download/LexiCull.apk](https://github.com/ranjiushu/LexiCull-Releases/releases/latest/download/LexiCull.apk)（始终指向最新版，与上面的包内容相同） |
 | 全部版本 | [Releases](https://github.com/ranjiushu/LexiCull-Releases/releases) |
 | SHA-256 | `5787bfd20379479818071d534e92c45517c5f5fbc327a4ac43b069af50a6bfec` |
 
