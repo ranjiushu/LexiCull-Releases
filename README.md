@@ -137,12 +137,12 @@ Obsidian 这类长文档知识库，个人场景下维护成本高，长期坚�
 ## 界面
 
 <p align="center">
-  <img src="assets/shots/board.png" width="200" alt="看板">
-  <img src="assets/shots/learning.png" width="200" alt="背诵页">
-  <img src="assets/shots/drawer.png" width="200" alt="辞表抽屉">
-  <img src="assets/shots/settings.png" width="200" alt="设置页">
+  <img src="assets/shots/board.webp" width="200" alt="看板">
+  <img src="assets/shots/learning.webp" width="200" alt="背诵页">
+  <img src="assets/shots/drawer.webp" width="200" alt="辞表抽屉">
+  <img src="assets/shots/menu.webp" width="200" alt="看板菜单">
 </p>
-<p align="center"><sub>看板（词典印刷风格排版） · 背诵页 · 辞表抽屉 · 设置页</sub></p>
+<p align="center"><sub>看板（词典印刷风格排版） · 背诵页 · 辞表抽屉 · 看板菜单</sub></p>
 
 ## 数据与隐私
 

@@ -125,7 +125,7 @@ code { font-family: var(--mono); font-size: .92em; }
 
 /* ── 截图行 ── */
 .shots { display: flex; gap: 14px; padding-bottom: 6px; }
-.shots img { flex: 1 1 0; min-width: 0; height: auto; border-radius: 10px; border: 1px solid var(--line); }
+.shots img { flex: 1 1 0; min-width: 0; height: auto; }
 .shots-cap { margin-top: 10px; }
 
 /* ── 问答 ── */
